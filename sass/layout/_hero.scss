@@ -5,7 +5,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(./images/hero/img480.jpg);
+    url(../images/hero/img480.jpg);
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
@@ -21,7 +21,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(./images/hero/img480@2x.jpg);
+      url(../images/hero/img480@2x.jpg);
   }
 
   @media screen and (min-width: 768px) {
@@ -29,7 +29,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(./images/hero/img780.jpg);
+      url(../images/hero/img780.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -38,7 +38,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(./images/hero/img780@2x.jpg);
+        url(../images/hero/img780@2x.jpg);
     }
   }
 
@@ -47,7 +47,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(./images/hero/Img.jpg);
+      url(../images/hero/Img.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -56,7 +56,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(./images/hero/Img@2x.jpg);
+        url(../images/hero/Img@2x.jpg);
     }
   }
 }
