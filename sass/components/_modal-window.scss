@@ -21,14 +21,19 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 450px;
-  height: 609px;
+  width: 320px;
+  height: 650px;
   background-color: rgb(255, 255, 255);
   padding: 40px;
 
+  @media screen and (min-width: 480px) {
+    width: 450px;
+    height: 609px;
+  }
+
   @media screen and (min-width: 768px) {
     width: 528px;
-    height: 580px;
+    height: 581px;
   }
 }
 

@@ -1,7 +1,3 @@
-.nav-auth {
-  margin-top: 302px;
-}
-
 .nav-auth__link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -16,6 +12,11 @@
   &:focus {
     color: var(--accent-color);
   }
+}
+
+.mobile-menu__phone {
+  font-size: 34px;
+  color: var(--accent-color);
 }
 
 .contact-address {

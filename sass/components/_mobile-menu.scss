@@ -23,6 +23,9 @@
   .mobile-menu__container {
     position: relative;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .mobile-menu__close-btn {

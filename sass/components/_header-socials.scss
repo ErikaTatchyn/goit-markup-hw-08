@@ -2,12 +2,19 @@
   display: flex;
 }
 
+.header-socials__item:not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.header-socials__item:not(:first-child) {
+  padding-left: 10px;
+}
+
 .header-socials__link {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
   color: #2196f3;
-  padding: 10px;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }

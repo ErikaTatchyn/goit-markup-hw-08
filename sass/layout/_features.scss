@@ -1,3 +1,9 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .features__svg-container {
   margin-bottom: 30px;
   height: 120px;
@@ -31,7 +37,9 @@
 
 @media screen and (min-width: 768px) {
   .features {
-    @include list;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
   }
 }
 
@@ -41,6 +49,6 @@
   }
 
   .features__item {
-    max-width: 330px;
+    width: calc((100% - 30px) / 2);
   }
 }
