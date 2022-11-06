@@ -73,7 +73,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team__item {
-    max-width: 330px;
+    width: calc((100% - 30px) / 2);
   }
 
   .team {

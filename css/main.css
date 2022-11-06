@@ -149,6 +149,7 @@ img {
   .mobile-menu__container {
     position: relative;
     background-color: #fff;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -922,7 +923,7 @@ img {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team__item {
-    max-width: 330px;
+    width: calc((100% - 30px) / 2);
   }
   .team {
     flex-wrap: wrap;
@@ -940,12 +941,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .client {
-    width: calc((100% - 90px) / 3);
+    width: calc((100% - 60px) / 3);
   }
 }
 @media screen and (min-width: 1200px) {
   .client {
-    width: calc((100% - 180px) / 6);
+    width: calc((100% - 150px) / 6);
   }
 }
 
