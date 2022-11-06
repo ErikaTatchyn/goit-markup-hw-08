@@ -241,7 +241,11 @@ img {
   line-height: 1.2;
   text-decoration: none;
   letter-spacing: 0.03em;
-  margin-right: 88px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 88px;
+  }
 }
 
 .logo__accent {
@@ -308,6 +312,10 @@ img {
     justify-content: center;
     gap: 30px;
     flex-direction: row;
+  }
+  .nav-auth__link {
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 .header-socials {
@@ -1126,6 +1134,7 @@ img {
   }
   .address-container {
     flex-grow: 1;
+    margin-right: 70px;
   }
   .footer-container_top {
     gap: 0;
